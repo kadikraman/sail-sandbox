@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "github": {
+      "url": "http://localhost:8000/auth/github"
+    }
+  },
+  "api": {
+    "graphql": "http://localhost:8000/graphql",
+    "stream": "http://localhost:8000/stream"
+  }
+}

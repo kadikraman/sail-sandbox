@@ -1,0 +1,24 @@
+{
+  "name": "sail-sandbox-jon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:craftship/sail-sandbox-jon.git",
+  "author": "Craftship Ltd <hello@craftship.io>",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "9.2.1"
+  },
+  "scripts": {
+    "start": "node ./cli/bin/sail",
+    "_pre-sail": "echo pre sail",
+    "_post-sail": "echo post sail"
+  },
+  "dependencies": {
+    "node-sass": "^4.8.3",
+    "nodemon": "^1.17.3",
+    "pm2": "^2.10.2",
+    "react": "^16.3.0",
+    "react-native": "^0.55.3",
+    "redux": "^4.0.0"
+  }
+}
