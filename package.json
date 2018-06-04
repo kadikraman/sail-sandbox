@@ -9,7 +9,7 @@
     "node": "9.2.1"
   },
   "scripts": {
-    "start": "node ./cli/bin/sail",
+    "start": "NODE_ENV=development node ./cli/bin/sail",
     "_pre-sail": "echo pre sail",
     "_post-sail": "echo post sail"
   },
